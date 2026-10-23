@@ -5,5 +5,12 @@ import androidx.compose.runtime.Composable
 class FormulaZeroApp {
 
     @Composable
-    fun FormulaZeroApp() { }
+    fun FormulaZeroApp() {
+        val navController = rememberNavController()
+
+        NavHost(navController = navController, startDestination = "home") {
+            composable("home") { HomeScreen(navController) }
+            composable("races") { UpcomingRacesScreen(navController) }
+        }
+    }
 }
