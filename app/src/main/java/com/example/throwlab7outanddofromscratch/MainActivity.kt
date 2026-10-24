@@ -23,7 +23,7 @@ import com.example.throwlab7outanddofromscratch.ui.theme.ThrowLab7OutAndDoFromSc
 
 /* Lab 7 made absolutley no sense.
 With the help of Gemini AI and an hour of back and forth I now understand the concepts of Navigation.
-What you want to accomplish in lab 7 ID but at least ive aquired the learnings.
+What you want to accomplish in lab 7 IDK but at least ive aquired the learnings.
 If you wont accept this i dont care - ive got what i needed; please make better labs.
 
 Please take solace in that i did not cheat my way through your lab with AI.
