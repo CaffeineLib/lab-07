@@ -25,31 +25,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Lab7Theme (
-                onCreate(
-                    //step 4 makes no sense
-                ){
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    //greetings
-
-                }
+            Lab7Theme (){
+                FormulaZeroApp()
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Lab7Theme {
-        Greeting("Android")
-    }
-}
